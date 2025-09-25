@@ -1,0 +1,19 @@
+// Using Logical Operators
+
+// &&	Logical AND -- returns TRUE only if all conditions are TRUE
+// ||	Logical OR -- returns TRUE if any condition is TRUE
+// !	Logical NOT -- returns the opposite Boolean value
+
+// Logical Operators
+
+print( (1 == 1) && (2 == 2) )	// Logical AND operator, TRUE because both operands are TRUE, so TRUE AND TRUE returns TRUE
+
+print( (1 == 1) && (2 != 2) )	// Logical AND operator, FALSE because one operands is FALSE, so TRUE AND FALSE returns FALSE
+
+print( (1 == 1) || (2 == 2) )	// Logical OR operator, TRUE because both operands are TRUE, so TRUE OR TRUE returns TRUE
+
+print( (1 == 1) || (2 != 2) )	// Logical OR operator, TRUE because one operands is TRUE, so TRUE OR FALSE returns TRUE
+
+print( (1 != 1) || (2 != 2) )	// Logical OR operator, FALSE because both operands are FALSE, so FALSE OR FALSE returns FALSE
+
+print( !(1 == 1) )				// Logical NOT operator, FALSE because 1==1 is TRUE, so NOT TRUE returns FALSE
