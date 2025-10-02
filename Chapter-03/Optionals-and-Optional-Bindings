@@ -1,0 +1,11 @@
+// Optionals
+// https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/
+
+var spouseName: String?
+spouseName = "Lydia"
+print(spouseName)
+// Optional Binding
+if let spouse = spouseName {
+	let greeting = "Hello, " + spouse
+	print(greeting)
+}
